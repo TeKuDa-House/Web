@@ -1,0 +1,21 @@
+parameters:
+    level: 8
+    paths:
+        - app
+    excludePaths:
+        - bootstrap
+        - config
+        - database
+        - node_modules
+        - public
+        - resources
+        - storage
+        - tests
+        - vendor
+
+    files:
+        - app
+
+    neonLoader:
+        includes:
+            - app/Models/User.php # Chemin vers le modèle User
